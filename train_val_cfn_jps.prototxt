@@ -21,7 +21,7 @@ layer {
    
   }
   data_param {
-    source: "./jps_dataset/train"
+    source: "./data/train"
     batch_size: 256
     backend: LMDB
   }
@@ -46,7 +46,7 @@ layer {
     jitter_size: 21
   }
   data_param {
-    source: "./jps_dataset/val"
+    source: "./data/val"
     batch_size: 50
     backend: LMDB
   }
